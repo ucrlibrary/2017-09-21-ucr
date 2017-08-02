@@ -47,6 +47,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
+
 <h2 id="general">General Information</h2>
 
 <!--
@@ -63,12 +64,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include lc/intro.html %}
 {% endif %}
 
-
+<!--
   AUDIENCE
 
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
-
+-->
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
 {% elsif page.carpentry == "dc" %}
